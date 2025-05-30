@@ -67,4 +67,25 @@ The project will involve several stages of analysis:
 ## **Conclusion**  
 This project aims to provide data-driven insights into the relationship between digital device usage, sleep patterns, and academic productivity. The findings may help optimize screen time management strategies for improved study efficiency and overall well-being.  
 
+
+## Machine Learning Models Used
+
+To predict **Study Time**, three different machine learning models were trained and compared using features like:
+
+- Phone Usage (min)  
+- Computer Usage (hrs)  
+- Sleep Duration (hrs)
+
+### Models:
+- **Linear Regression**
+- **Decision Tree Regressor**
+- **Random Forest Regressor**
+
+The Linear Regression model gave the best performance (R²: 0.9996), but all three models were evaluated to ensure robustness.
+## AI Tools & Support
+
+- **ChatGPT** was used to structure the project report, summarize insights, generate this README file, and assist with data explanations.
+- **Python** libraries such as `pandas`, `scikit-learn`, `seaborn`, `matplotlib`, and `statsmodels` were used in the implementation.
+
+
 ---
